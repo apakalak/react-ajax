@@ -1,0 +1,14 @@
+.boxes{
+    font-family: monospace;
+    border: 2px solid darkseagreen;
+    display: inline-block;
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+    padding: 5px;
+}
+.box{
+    margin: 2px;
+    padding: 2px;
+    color: lightcoral;
+    border: 1px dotted darkseagreen;
+}
