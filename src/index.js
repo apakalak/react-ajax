@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Boxes from './components/boxes/Boxes';
 import Random from './components/Random';
 import CurrencyConverter from './components/CurrencyConverter'
+import Movies from './components/movies/Movies';
 import {Router,Route,IndexRoute,browserHistory} from 'react-router';
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Route path="boxes" component={Boxes}/>
       <Route path="random" component={Random}/>
       <Route path="converter" component={CurrencyConverter}/>
+      <Route path="movies" component={Movies}/>
     </Route>
   </Router>,
 
